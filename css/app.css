@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  background-image: url('../media/dice-wallpaper-bw-wallpaper.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#container {
+  margin: 50px;
+  width: 100%;
+}
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: 'Open Sans', sans-serif;
+}
+.button-primary,
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+  color: white;
+  border-radius: 10px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.pure-button-primary {
+  background: #f3b115;
+}
+.button-success {
+  background: #be0909;
+}
+.button-error {
+  background: #d2734e;
+}
+.button-warning {
+  background: #df7514;
+}
+.button-secondary {
+  background: rgba(108, 67, 223, 0.55);
+}
+.button-xsmall {
+  font-size: 50%;
+}
+.button-small {
+  font-size: 85%;
+}
+.button-large {
+  font-size: 110%;
+}
+.button-xlarge {
+  font-size: 150%;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+.vertical {
+  background-color: rgba(190, 9, 9, 0.7) !important;
+}
+.horizontal {
+  background-color: rgba(246, 174, 22, 0.7) !important;
+}
+.arrow {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+}
+#game {
+  background-color: rgba(247, 247, 247, 0.54);
+}
+.header {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+h1 {
+  font-family: 'Racing Sans One', cursive;
+  font-size: 70px;
+  color: #000;
+}
+#score {
+  margin-left: 10px;
+}
+.dice {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+}
+#dice {
+  background-color: white;
+  width: 350px;
+  height: auto;
+  margin: auto auto;
+}
+.frozen {
+  opacity: 0.4;
+}
+.roll-dice {
+  margin: 10px;
+}
