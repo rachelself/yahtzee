@@ -1,14 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Bitter:700,400italic,400);
 
 body{
-  background-image: url('../media/dice-wallpaper-bw-wallpaper.jpg');
-  background-size: cover;
+  background-image: url('../media/wet_snow.png');
+  background-size: 15%;
   background-attachment: fixed;
 }
 
 #container {
-  margin: 50px;
-  width: 100%;
+  margin: 0 auto;
+  width: 960px;
+  position: absolute;
+  left: 50px;
+  //top: 50px;
+  //text-align: center;
 
 }
 
@@ -24,12 +29,13 @@ html, button, input, select, textarea,
 .button-warning,
 .button-secondary {
   color: white;
-  border-radius: 10px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0px;
 }
 
 .pure-button-primary {
-  background: rgb(243, 177, 21);
+  background: rgb(204, 194, 0);
+  letter-spacing: 0px;
 }
 
 .button-success{
@@ -85,8 +91,15 @@ html, button, input, select, textarea,
 
 }
 
+input {
+  margin-right: 5px;
+}
+
 #game{
   background-color: rgba(247, 247, 247, 0.54);
+  width: 960px;
+  letter-spacing: 1px;
+  margin-top: 10px;
 
 }
 
@@ -97,14 +110,14 @@ html, button, input, select, textarea,
 }
 
 h1{
-  font-family: 'Racing Sans One', cursive;
+  font-family: 'Bitter', serif;
+  font-weight: normal;
+  letter-spacing: -4px;
   font-size: 70px;
   color: #000;
+  border-bottom: 2px dashed rgb(190, 9, 9);
 }
 
-#score{
-  margin-left: 10px;
-}
 
 .dice{
   width: 50px;
@@ -114,15 +127,25 @@ h1{
 
 #dice{
   background-color: white;
-  width: 350px;
+  width: auto;
   height: auto;
-  margin: auto auto;
+  padding: auto;
+  margin: 10px 0;
 }
 
 .frozen{
   opacity: 0.4;
 }
 
+#rolldice{
+  float: right;
+
+}
+
 .roll-dice{
   margin: 10px;
+}
+
+.add {
+  width: 100px;
 }

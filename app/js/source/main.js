@@ -46,6 +46,7 @@
     var score = $('#score').val();
     $('.horizontal .vertical').text(score);
     event.preventDefault();
+    $('#score').reset();
   }
 
   function move(event)
@@ -111,6 +112,7 @@
     var avatar = $('#avatar').val();
     createRow(username, avatar);
     event.preventDefault();
+    $('#adduser').reset();
   }
 
   function createRow(username, avatar)
